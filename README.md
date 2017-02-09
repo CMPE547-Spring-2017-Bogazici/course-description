@@ -30,3 +30,5 @@ Enabling `Edit`->`Automatically Sync after Committing` is recommended. Here are 
 1. [Create a pull request](https://help.github.com/articles/creating-a-pull-request/) on the original repository. This is when you actually submit your work.
 1. You can continue to push fixes and improvements until the deadline and create new pull requests – just add a comment in the pull request to let us know what has been updated.
 
+Want to learn more about git? Check the Pro Git Book <https://git-scm.com/book/en/v2>
+

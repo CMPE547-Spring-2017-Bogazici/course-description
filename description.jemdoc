@@ -1,0 +1,172 @@
+# jemdoc: menu{MENU}{description.html}
+= CMPE547 (Past CMPE58K) - Bayesian Statistics and Machine Learning
+
+== Catalog Data
+Machine learning approaches using Bayesian statistics. Graphical models, directed and undirected models, learning and inference, Hidden Markov Models (HMM's), Linear Dynamical Systems,
+message passing algorithms, Junction Tree, factor graphs, sum-product,  hierarchical Bayesian modeling, Expectation-Maximisation, Variational Approximation techniques
+
+== Course Description
+The grand challenge facing computer science in the 21st century is the processing and analysis of large data. With the advance of sensor and storage technologies, and with the cost of data acquisition dropping significantly, we are able to monitor complex systems over time, easily collect and record vast amounts of raw data. The main challenge is to extract meaningful information from these highly structured multivariate datasets that can be of interest for scientific, financial, political or technological purposes. In this course, we will cover computational methodologies for modeling and inference from a Bayesian perspective.\n\n
+
+In the Bayesian paradigm, data is viewed as  realizations from highly structured  probabilistic models. Once a model
+is constructed, several interesting problems such as feature extraction, pattern recognition, retrieval, sensor fusion, coding, network analysis, classification, restoration, tracking, source separation or model selection can be formulated as Bayesian inference problems. In this context, graphical models provide a "language" to construct
+models for quantification of prior knowledge. Unknown parameters in
+this specification are estimated by probabilistic inference. Often,
+however, the problem size poses an important challenge and in order to
+render the approach feasible, specialized inference methods need to be
+tailored to improve the computational speed and efficiency.\n\n
+
+The scope of this course is to review the fundamentals of probabilistic models, inference algorithms and associated data structures. We will review directed (Bayesian Networks) and undirected (Markov Random fields), factor graphs and junction trees.  In particular, we will review exact inference, approximate deterministic (variational) inference techniques and Monte Carlo methods. Stochastic inference techniques are treated in more depth in a different course focusing entirely on Monte Carlo computation (offered in Bogazici as CMPE58N).\n\n
+
+Our ultimate aim of this course is to provide a basic understanding of probabilistic modeling for
+machine learning, associated computational techniques such that the research students
+can orient themselves in the relevant literature and
+understand the current state of the art.\n\n
+
+== Topics
+- Probability Theory Review, Graphical Models 	
+- Bayesian Learning, Probability Distributions,
+- Construction of Probabilistic models, Hierarchical Modeling, Conjugate Priors,
+- Sequential Data	
+- Inference in Hidden Markov Models (HMM's),
+- Multivariate Gaussians, Linear Dynamical Systems (LDS's),
+- Inference in  LDS, Kalman Filter and Smoother
+- Approximate inference, Variational Methods, Mean field, 	
+- Variational Bayes, ICM
+- Expectation Maximisation (EM), Bayesian learning in HMM's and LDS's,
+- Switching state space models, Nonlinear Dynamic Systems, Changepoint models
+- Exact Inference, Junction Tree, Belief Propagation, Sum Product	algorithm
+- Advanced topics: Nonparametric Bayesian models, Dirichlet Process Mixtures
+
+== Who could take this course
+This course teaches statistical techniques for modeling real world phenomena and dealing with uncertainty for making sense of data. As analysis of data is central in several application domains, techniques covered in this class have a quite wide applicability. Whilst our coverage is not exhaustive, in the past, students from several disciplines with a broad range of interests have benefited from the material
+
+- Computer Engineering
+-- Machine Learning, Pattern Recognition,
+-- Computer Vision, Machine Listening
+-- Artificial Intelligence (Expert Systems, Dealing with uncertainty)
+-- Robotics (Novelty detection, tracking, navigation)
+-- Cognitive Science (modelling human behaviour)
+-- Software Engineering, (modelling software development and testing)
+-- Network design (Statistical analysis of structure, dynamics and evolution of networks)
+- Electrical Engineering, Biomedical Engineering,
+-- Statistical Signal Processing
+-- Time series analysis, Spectral estimation
+-- Source separation, Denoising, Imaging, Speech processing
+-- Dynamical Systems, Control,
+-- Information theory
+- Industrial Engineering,
+-- Probabilistic Modeling, Decision support systems
+- Chemical Engineering, System Biology
+-- Bioinformatics, analysis of gene expression data
+- Physics, Mathematics
+-- Statistical mechanics
+-- Applications of probability and graph theory
+-- Financial mathematics\n
+
+
+Graduate students and interested senior undergraduates are welcome to take the course with or without credit. 
+You are welcome to sit in if space permits; just let me know with an email.
+
+
+== Textbook 
+- Bayesian Reasoning and Machine Learning\n 
+David Barber, 2012\n
+Online, published by the Cambridge University Press\n
+[http://web4.cs.ucl.ac.uk/staff/D.Barber/pmwiki/pmwiki.php?n=Main.Textbook Book]
+
+
+== Reference Textbooks 
+Chapters from the following books:
+
+- Pattern Recognition and Machine Learning, \n
+Christopher Bishop \n
+[http://research.microsoft.com/~cmbishop/PRML/index.htm Book Website]
+
+- Machine Learning, A Probabilistic Perspective \n
+Kevin P. Murphy \n
+[http://www.cs.ubc.ca/~murphyk/MLbook/ Book Website]
+
+
+== Prerequisite or consent of instructor
+CmpE 343 (Introductory Probability and Statistics) or equivalent
+
+== Administrative 
+=== Grading
+- % 40 Written Exam(s)
+- % 30 Assignments, Quizes, 
+- % 30 Final Project, Report and Poster Presentation
+
+=== Total Credits
+3
+
+== Past Evaluation Comments from Students 
+
+I am always quite surprised after course evaluations to see the broad spectrum of expectations. Although I want to think of myself as a reasonably OK teacher, I typically get evaluation results with a high variance. The following comments left anonymously may be useful in choosing taking this course.
+
+
+
+~~~
+{Fall 2015}{}
+
+In brief, I am so happy with taking his lecture which is I think the most beneficial course for all of the students. In addition, he is not my advisor or anything has beneficial feedback for me he just does his bets I think and I would like to say thanks for having the lecturer as a member of the BOUN.
+~~~
+
+~~~
+{Fall 2015}{}
+
+The instructor does not pay attention to students' level of comprehension. The students are supposed to know a lot of things. The objective of the course content is unclear. The design, the proofs of the course content should be more explicit. I think the instructor does not have time or patience to explain a topic in detail. Also TAs are not very good at course content. Some explanations are misleading or incomplete.
+~~~
+
+~~~
+{Fall 2015}{}
+
+I HOPE SOMEONE READS THIS! The course has no structure at all. The instructor just gives us a bunch of information. At the end of lectures, no one is able to answer the wuestion of what have I learned from this lecture. He mentions about many things but there is no structure in it. We first learn a topic and jump to another thing, come back to where we were... The instructor doesn't talk about the titles nor does he summarize what we learn. When he enters the class, he immediately starts writing complex equations without a detailed mentioning of what we will do, what we try to achieve etc. Eventhough I attend ALL the courses, I can't even tell what the subjects of the course were. I have to study everything on my own at home.
+~~~
+
+~~~
+{Fall 2014}{}
+
+The course structure and subject material are remarkable. The only problems are delay in grading and announcement of grades and students' poor understanding of probability which is not due to this course.
+~~~
+
+~~~
+{Fall 2014}{}
+The course tries to cover a lot more than that is possible. There was not enough direction about how to brush up for required material like matrix algebra,calculus etc. A more balanced approach including writing code to implement the material learned would make the subject stick more. Too much abstraction and fast pace diminished the actual understanding of the material.
+~~~
+
+~~~
+{Fall 2014}{}
+Assistants may get more and more involved. Also, sometimes I got lost in derivations and forgot what we are doing. Objectives might be more clear.
+~~~
+
+~~~
+{Fall 2014}{}
+The solutions to assignments are inadequate. Most of them are not solved in problem sessions and the questions about them are not regarded as valuable. I believe that this lecture as a grad lecture should provide more insight for the begginers of computer enginering.
+~~~
+
+
+Here are a few points to keep in mind:
+
+. Cmpe 547 Bayesian Statistics and Machine Learning is a mathematically involved course, at least when compared to some other graduate courses in computer engineering.
+
+. Beside Computer Engineering majors and grad students, the course is really taken by a very mixed crowd (management science, chemical, civil, mechanical, industrial, electrical engineering, cognitive science, psychology). Inevitably, students have a diverse background and very different amount of preperation in required subjects (probability, calculus, linear algebra and programming). I try to teach at a level such that the material would be accessible easily by someone who has sufficient motivation and desire to also self investigate (which is rougly the level of a student in our research group) 
+
+. Class attendance is necessary is definitely not sufficient. Experience has shown that it may be difficult to catch-up with the material if you miss more than 2 lectures in a row.
+
+. You should be familiar with basic probability concepts such as expectations, densities, independence. Some basic calculus and linear algebra is also required. I tend to think that most complaints about the material are often due to the lack of some basic concept in the students preperation.
+
+. Our dropout rate is quite high. Due to the popularity of the subject matter (everybody talks about big data and data science), we start every term with a large number attendees but consequently about 30-40 percent of students drop/withdraw or start not showing up. 
+
+. This is a **graduate level** course and it is **not** a required course. The goal is to familarize the students with the concepts and tools that are now almost folklore in research. Hence, if you expect that you would get spoon-fed with all the material, you should reevaluate your expectations. 
+
+. Unfortunately, this course does not have official TA's. The TA's are graduate students from my research group, helping entirely on a voluntary basis and have actually other duties. Hence, the PS is completely optional and is there for providing additional help.
+
+. The topic selection reflects my personal knowledge and my taste; it is not neccessarly the most popular and 'lucrative' approach to all machine learning problems.
+
+. In a semester, unfortunately this is not the sole course I am teaching. 
+
+
+
+
+
